@@ -21,7 +21,7 @@ fetch("https://api.waifu.pics/sfw/bonk")
     .then(response => {
         console.log(response)
         document.getElementById('anime-quote').innerHTML = '" ' + response.quote + ' "';
-        document.getElementById('anime-character').innerHTML = "<br>" + "Said by: " + response.characte;
+        document.getElementById('anime-character').innerHTML = "<br>" + "Said by: " + response.character;
     });
 
 
