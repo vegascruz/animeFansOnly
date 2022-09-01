@@ -16,7 +16,7 @@
         console.log(error);
     });
     */
-    fetch("https://api.waifu.pics/sfw/bonk")
+    fetch("https://api.waifu.pics/sfw/smile")
     .then(response => response.json())
     .then(content => {
         //data, pagination, meta
