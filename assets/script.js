@@ -1,7 +1,4 @@
-//NEED TO DO: link external js files
-
-
-/*fetch("https://api.waifu.pics/sfw/bonk")
+fetch("https://api.waifu.pics/sfw/bonk")
     .then(response => {
         console.log(response);
         return response.blob();
@@ -15,7 +12,7 @@
         console.log('Error!');
         console.log(error);
     });
-    */
+ 
     fetch("https://api.waifu.pics/sfw/bonk")
     .then(response => response.json())
     .then(content => {
@@ -32,6 +29,8 @@
         document.getElementById('anime-character').innerHTML = "<br>" + "Said by: " + response.character;
     });
 
-
+function refresh(){
+    window.location.reload()
+}
 
 
